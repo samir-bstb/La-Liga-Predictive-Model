@@ -1,12 +1,12 @@
 La Liga Winner Prediction Model for the 2024/2025 Season
 
 Overview
-Thsi project implements a machine learning model to predict the 
+This project implements a machine learning model to predict the 
 winner of La Liga for the 2024/2025 season. The 
 approach combines XGBoost dor multi-class classification to predict 
 match outcomes (home win, draw, away win) and a Poisson distribution
 to simulate realistic goal counts in prediction functions.
-The model levarages historica match data and engineered features to 
+The model levarages historical match data and engineered features to 
 provide robust predictions and simulate season outcomes.
 
 Methodology
