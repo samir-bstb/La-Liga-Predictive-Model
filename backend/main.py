@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from model import predict_match, simulate_season_with_predict_match
+from .model import predict_match, simulate_season_with_predict_match
 import pickle
 import os 
 
