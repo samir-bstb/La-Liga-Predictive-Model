@@ -181,9 +181,9 @@ def predict_match(home, away):
     probs = model.predict(dX)[0]
 
     return {
-        "H": round(probs[0] * 100, 1),
-        "D": round(probs[1] * 100, 1),
-        "A": round(probs[2] * 100, 1)
+        "H": float(round(probs[0] * 100, 1)),
+        "D": float(round(probs[1] * 100, 1)),
+        "A": float(round(probs[2] * 100, 1))
     }
 
 def simulate_season_with_predict_match(season_df, model, features, lambda_h, lambda_a, scaler):
